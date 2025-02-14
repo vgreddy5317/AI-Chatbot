@@ -1,0 +1,11 @@
+[project]
+name = "Jarvis"
+version = "0.1.0"
+description = "AI Chatbot powered by Google's Gemini API"
+requires-python = ">=3.11"
+dependencies = [
+    "google-generativeai>=0.8.4",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.42.0",
+    "openai>=1.0.0"  # Added in case OpenAI API is used later
+]
