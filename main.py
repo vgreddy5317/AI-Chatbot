@@ -24,7 +24,7 @@ except Exception as e:
 
 # Page configuration
 st.set_page_config(
-    page_title="AI Chat Assistant (Powered by Gemini)",
+    page_title="Jarvis Chat Bot (Powered by Gemini)",
     page_icon="💭",
     layout="centered"
 )
@@ -59,7 +59,7 @@ def main():
     initialize_session_state()
 
     st.markdown('<div class="chat-header">'
-                '<h1>💭 AI Chat Assistant</h1>'
+                '<h1>💭 Jarvis AI Chat Bot</h1>'
                 '<p>Ask me anything and I'll help you out!</p>'
                 '</div>', unsafe_allow_html=True)
 
