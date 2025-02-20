@@ -59,6 +59,7 @@ def main():
     initialize_session_state()
 
     st.markdown('<div class="chat-header">'
+                '<img src="chatbot.jpg" alt="Chatbot Logo" style="width: 100px; height: 100px;">'
                 '<h1>💭 Jarvis AI Chat Bot</h1>'
                 '<p>Ask me anything and I'll help you out!</p>'
                 '</div>', unsafe_allow_html=True)
