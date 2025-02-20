@@ -1,17 +1,34 @@
-/* User Message Styling */
+/* General Styling */
+body {
+    background: #e3f2fd; /* Light Sky Blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Chat Header */
+.chat-header {
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(90deg, #29b6f6, #0288d1); /* Sky Blue Gradient */
+    color: white;
+    border-radius: 0.8rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* User Message */
 .user-message {
-    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    background: linear-gradient(135deg, #4fc3f7, #039be5); /* Sky Blue */
     color: white;
     padding: 1.5rem;
     border-radius: 0.8rem;
     margin: 1rem 0;
-    border-left: 6px solid #1565c0;
+    border-left: 6px solid #0277bd;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Assistant Message Styling */
+/* Assistant Message */
 .assistant-message {
-    background: linear-gradient(135deg, #66bb6a, #43a047);
+    background: linear-gradient(135deg, #66bb6a, #388e3c); /* Green Shades */
     color: white;
     padding: 1.5rem;
     border-radius: 0.8rem;
@@ -20,30 +37,19 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Chat Header */
-.chat-header {
-    text-align: center;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    background: linear-gradient(90deg, #ff8a65, #ff7043);
-    color: white;
-    border-radius: 0.8rem;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
-}
-
 /* Chat Input Box */
 .chat-input {
-    background: #f3e5f5;
+    background: #bbdefb; /* Light Blue */
     padding: 1rem;
     border-radius: 0.8rem;
     margin-top: 2rem;
-    border: 2px solid #ab47bc;
+    border: 2px solid #42a5f5;
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Error Message */
 .error-message {
-    background: linear-gradient(135deg, #ef5350, #d32f2f);
+    background: linear-gradient(135deg, #ef5350, #d32f2f); /* Red Shades */
     color: white;
     padding: 1rem;
     border-radius: 0.8rem;
@@ -54,7 +60,7 @@
 
 /* Buttons */
 button {
-    background: linear-gradient(90deg, #ffca28, #ffa726);
+    background: linear-gradient(90deg, #ffca28, #ff9800); /* Yellow to Orange */
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -65,12 +71,12 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(90deg, #ffa000, #ff7043);
+    background: linear-gradient(90deg, #ffa000, #f57c00);
 }
 
-/* Make Chat Container Stylish */
+/* Chat Container */
 .stChatContainer {
-    background: #fff3e0;
+    background: #e1f5fe; /* Soft Blue */
     border-radius: 1rem;
     padding: 1rem;
 }
